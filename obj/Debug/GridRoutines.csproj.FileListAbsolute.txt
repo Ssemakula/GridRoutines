@@ -1,0 +1,6 @@
+C:\Learning\C Sharp\Source\Repos\UpdateTharOffline\GridRoutines\bin\Debug\GridRoutines.dll
+C:\Learning\C Sharp\Source\Repos\UpdateTharOffline\GridRoutines\bin\Debug\GridRoutines.pdb
+C:\Learning\C Sharp\Source\Repos\UpdateTharOffline\GridRoutines\obj\Debug\GridRoutines.csproj.AssemblyReference.cache
+C:\Learning\C Sharp\Source\Repos\UpdateTharOffline\GridRoutines\obj\Debug\GridRoutines.csproj.CoreCompileInputs.cache
+C:\Learning\C Sharp\Source\Repos\UpdateTharOffline\GridRoutines\obj\Debug\GridRoutines.dll
+C:\Learning\C Sharp\Source\Repos\UpdateTharOffline\GridRoutines\obj\Debug\GridRoutines.pdb
