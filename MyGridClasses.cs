@@ -23,7 +23,7 @@ namespace GridRoutines
             }
             else
             {
-                return (int)cellValue;
+                return Convert.ToInt32(cellValue);
             }
         }
 
@@ -37,7 +37,35 @@ namespace GridRoutines
             }
             else
             {
-                return (int) cellValue;
+                return Convert.ToInt32(cellValue);
+            }
+        }
+
+        public static byte GetByteRef(DataGridView _dataGridView, int _columnIndex) //Get integer value using column index
+        {
+            object cellValue;
+            cellValue = GetValue(_dataGridView, _columnIndex);
+            if (cellValue == null)
+            {
+                return 0;
+            }
+            else
+            {
+                return Convert.ToByte(cellValue);
+            }
+        }
+
+        public static byte GetByteRef(DataGridView _dataGridView, string _columnIndex) //Get integer value using column name
+        {
+            object cellValue;
+            cellValue = GetValue(_dataGridView, _columnIndex);
+            if (cellValue == null)
+            {
+                return 0;
+            }
+            else
+            {
+                return Convert.ToByte(cellValue);
             }
         }
 
@@ -80,7 +108,7 @@ namespace GridRoutines
             }
             else
             {
-                return (double)cellValue;
+                return Convert.ToDouble(cellValue);
             }
         }
 
@@ -94,7 +122,7 @@ namespace GridRoutines
             }
             else
             {
-                return (double)cellValue;
+                return Convert.ToDouble(cellValue);
             }
         }
 
@@ -108,7 +136,7 @@ namespace GridRoutines
             }
             else
             {
-                return (decimal)cellValue;
+                return Convert.ToDecimal(cellValue);
             }
         }
 
@@ -122,7 +150,7 @@ namespace GridRoutines
             }
             else
             {
-                return (decimal)cellValue;
+                return Convert.ToDecimal(cellValue);
             }
         }
 
